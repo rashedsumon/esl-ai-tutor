@@ -118,7 +118,7 @@ with col1:
             <p style="font-size: 1.2rem;">{current_slide['image']}</p>
         </div>
         """,
-        unsafe_allow_allowed_html=True if hasattr(st, "unsafe_allow_allowed_html") else True
+        unsafe_allow_html=True
     )
     
     st.markdown(f"**💡 Teacher Note:** {current_slide['scaffolding_hint']}")
