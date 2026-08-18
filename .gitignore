@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv/
+
+# Streamlit
+.streamlit/secrets.toml
+.streamlit/config.toml
+
+# Local Vector DB & Models
+chroma_db/
+fine_tuned_esl_model/
+*.bin
+*.pt
+*.safetensors
+
+# Data & Environment
+data/*.csv
+.env
+
+# Docker / Deployment Logs
+*.log
+.DS_Store

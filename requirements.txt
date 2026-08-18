@@ -1,0 +1,14 @@
+fastapi[standard]
+uvicorn
+streamlit
+langchain
+langchain-openai
+langchain-community
+langgraph
+chromadb
+transformers
+datasets
+accelerate
+torch
+pydantic
+python-dotenv
